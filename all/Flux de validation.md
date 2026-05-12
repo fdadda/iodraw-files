@@ -10,11 +10,11 @@ flowchart LR
 
     subgraph Validation
         C -->|Oui| D["Validation opérationnelle<br/><br/>
-            · Lancement d’Elisath<br/>
-            · Ouverture de caisse<br/>
-            · Réalisation d’une opération de caisse<br/>
-            · Lecture et encodage d’un badge"]
-
+                    · Lancement d’Elisath<br/>
+                    · Ouverture de caisse<br/>
+                    · Réalisation d’une opération de caisse<br/>
+                    · Lecture et encodage d’un badge"]
+        
         D -->|DSI/AM| J[Prévenir le RAF]
     end
 
