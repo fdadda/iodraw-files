@@ -28,7 +28,7 @@ flowchart LR
     F -->|Planification de la nouvelle intervention| A
 
     %% --- STYLES ---
-    classDef StartEndPoint fill:#000,stroke:#000,color:#fff,stroke-width:2px;
+    classDef StartEndPoint fill:#000,stroke:#000,color:#c,stroke-width:2px;
     classDef decision fill:#ffd54f,stroke:#f57f17,color:#000,stroke-width:2px;
     classDef error fill:#e53935,stroke:#b71c1c,color:#fff,stroke-width:2px;
 
@@ -42,6 +42,6 @@ flowchart LR
     %% Bleu marine #000080 un peu plus doux
     %% Midnight blue #191970 bleu nuit profond 
     %% Bleu foncé intense #080F70 plus “design”, légèrement grisé 
-    %% Bleu foncé moderne #111184 un peu plus lumineux [figma.com]
+    %% Bleu foncé moderne #111184 un peu plus lumineux 
 
 ```
