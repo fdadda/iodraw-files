@@ -31,7 +31,7 @@ flowchart LR
         G --> H[Modification de la procédure]
         H --> I{Réussie ?}
         I -->|<b>Oui</b>| F
-        I -->|<b>Oui</b>| E
+        I -->|<b>N</b>| E
     end
 
     F ==>|Planification de la nouvelle intervention| A
