@@ -44,8 +44,8 @@ flowchart LR
     %% --- AFFECTATION DES CLASSES ---
     class start,fin StartEndPoint;
     class C,I,Val Decision;
-    class E,F,PrevDSI,PrevRAF error;
-
+    class E,F,PrevDSI,PrevRAF Error;
+    
     %% --- “CEINTURE + BRETELLES” (force le style sur les 2 nœuds) ---
     %%style start font-size:32px,font-weight:bold
     %%style fin   font-size:32px,font-weight:bold
