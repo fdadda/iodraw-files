@@ -47,5 +47,5 @@ flowchart LR
     %% Midnight blue #191970 bleu nuit profond 
     %% Bleu foncé intense #080F70 plus “design”, légèrement grisé 
     %% Bleu foncé moderne #111184 un peu plus lumineux
-    
+    %% Orange #ffd54f
 ```
