@@ -14,10 +14,10 @@ flowchart LR
             · Ouverture de caisse<br/>
             · Réalisation d’une opération de caisse<br/>
             · Lecture et encodage d’un badge"]
-
         D --> Val{Réussie ?}
         Val -->|<b>Oui</b>| PrevDSI(fa:fa-user Prévenir DSI/AM)
         PrevDSI  --> PrevRAF(fa:fa-user Prévenir le RAF)
+        
     end
      PrevDSI ==> fin((Fin))
     Val --> |<b>Non</b>| E
