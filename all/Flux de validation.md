@@ -19,7 +19,7 @@ flowchart LR
         PrevDSI  --> PrevRAF(fa:fa-user Prévenir le RAF)
         PrevRAF --> CLOSING(Clôture)
     end
-     PrevDSI ==> fin((Fin))
+     CLOSING ==> fin((Fin))
     Val --> |<b>Non</b>| E
     subgraph Investigation
         C --> |<b>Non</b>| E(fa:fa-user Prévenir DSI/AM)
@@ -44,7 +44,7 @@ flowchart LR
     class start,fin StartEndPoint;
     class C,I,Val Decision;
     class A,E,F,PrevDSI,PrevRAF Error;
-    class B,D,G,H,EXEC Action;
+    class B,D,G,H,EXEC,CLOS Action;
     %% --- “CEINTURE + BRETELLES” (force le style sur les 2 nœuds) ---
     %%style start font-size:32px,font-weight:bold
     %%style fin   font-size:32px,font-weight:bold
