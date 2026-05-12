@@ -38,7 +38,7 @@ flowchart LR
     %% --- STYLES ---
     classDef StartEndPoint fill:#c40466,stroke:#000,color:#fff,stroke-width:2px,font-size:32px,font-weight:bold;
     classDef Decision      fill:#ffd54f,stroke:#f57f17,color:#000,stroke-width:2px,font-size:24px,font-weight:bold;
-    classDef Action      fill:#9d,stroke:#f57f17,color:#000,stroke-width:2px,font-size:24px,font-weight:bold;
+    classDef Action      fill:#9d0048,stroke:#f57f17,color:#fff,stroke-width:2px,font-size:24px,font-weight:bold;
     classDef Error         fill:#e53935,stroke:#b71c1c,color:#fff,stroke-width:2px,font-size:24px,font-weight:bold;
 
     %% --- AFFECTATION DES CLASSES ---
