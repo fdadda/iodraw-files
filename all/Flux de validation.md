@@ -1,7 +1,7 @@
 ```mermaid
 flowchart LR
 
-    Start((Start)) --> A
+   
     classDef startStyle fill:#000,stroke:#000,color:#fff
     class Start startStyle
     class End startStyle
