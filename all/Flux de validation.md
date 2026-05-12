@@ -6,7 +6,7 @@ flowchart LR
     Start((Start)) --> A
     A(fa:fa-user DSIN/SERU) --> B[Exécution de la procédure]
     subgraph Exécution de la migration Windows 11 sur les postes de caisse ELISATH
-    B --> C{Réussie ?}
+    B --> decision {Réussie ?}
     end
     subgraph Validation
         C -- Oui --> D[Validation opérationnelle]
