@@ -3,7 +3,7 @@ flowchart LR
 
     start((Start)) --> A
     classDef startStyle fill:#000,stroke:#000,color:#fff
-    class 
+    class ci
     A(fa:fa-user DSIN/SERU) --> B[Exécution de la procédure]
     subgraph Exécution de la migration Windows 11 sur les postes de caisse ELISATH
     B --> C{Réussie ?}
