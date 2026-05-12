@@ -15,7 +15,7 @@ flowchart LR
                     · Réalisation d’une opération de caisse<br/>
                     · Lecture et encodage d’un badge"]
         D --> Val{Réussie ?}
-        Val -- Oui -->|DSI/AM| 
+        Val -- Oui --> |DSI/AM| 
         J[Prévenir le RAF]
     end
 
