@@ -1,4 +1,9 @@
 ```mermaid
+%%{init: {
+  "theme":"base",
+  "themeVariables": { "fontSize":"16px" },
+  "themeCSS": ".nodeLabel{font-weight:700;} .edgeLabel{font-weight:700;}"
+}}%%
 flowchart LR
 
     start((Start)) --> A
@@ -28,15 +33,14 @@ flowchart LR
     F -->|Planification de la nouvelle intervention| A
 
     %% --- STYLES ---
-    classDef StartEndPoint fill:#c40,stroke:#000,color:#fff,stroke-width:2px;
-    classDef decision fill:#ffd54f,stroke:#f57f17,color:#000,stroke-width:2px;
-    classDef error fill:#e53935,stroke:#b71c1c,color:#fff,stroke-width:2px;
+    classDef StartEndPoint fill:#c40466,stroke:#000,color:#fff,stroke-width:2px;
+    classDef decision      fill:#ffd54f,stroke:#f57f17,color:#000,stroke-width:2px;
+    classDef error         fill:#e53935,stroke:#b71c1c,color:#fff,stroke-width:2px;
 
     %% --- AFFECTATION DES CLASSES ---
     class start,End StartEndPoint;
     class C,I decision;
     class E,F,J error;
-
 
     %% --- Coide couleur ---
     %% Bleu marine #000080 un peu plus doux
