@@ -1,5 +1,5 @@
 ```mermaid
-%%{init: {
+{init: {
   "theme":"base",
   "themeVariables": { "fontSize":"16px" },
   "themeCSS": ".nodeLabel{font-weight:700;} .edgeLabel{font-weight:700;}"
@@ -49,5 +49,6 @@ flowchart LR
     %% Bleu foncé moderne #111184 un peu plus lumineux
     %% Orange #ffd54f
     %% Rouge #e53935
-    %% Rose CAPI #c4046
+    %% Rose CAPI #c40466
+
 ```
