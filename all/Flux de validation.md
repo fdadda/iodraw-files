@@ -8,8 +8,7 @@ flowchart LR
         B --> C{Réussie ?}
     end
 
-    subgraph 
-        
+    subgraph Validation
         C -->|Oui| D["Validation opérationnelle<br/><br/>
             · Lancement d’Elisath<br/>
             · Ouverture de caisse<br/>
@@ -20,7 +19,7 @@ flowchart LR
 
         Val -->|Oui| PrevDSI(fa:fa-user Prévenir DSI/AM)
        
-        PrevDSI --> fin((Fin))
+       
         PrevDSI  --> PrevRAF(fa:fa-user Prévenir le RAF)
     end
     Val --> |Non| E
