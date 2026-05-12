@@ -36,7 +36,7 @@ flowchart LR
     F -->|Planification de la nouvelle intervention| A
 
     %% --- STYLES ---
-    classDef StartEndPoint fill:#c40466,stroke:#000,color:#fff,stroke-width:2px,font-size:6,font-weight:bold;
+    classDef StartEndPoint fill:#c40466,stroke:#000,color:#fff,stroke-width:2px,font-size:64px,font-weight:bold;
     classDef decision      fill:#ffd54f,stroke:#f57f17,color:#000,stroke-width:2px;
     classDef error         fill:#e53935,stroke:#b71c1c,color:#fff,stroke-width:2px;
 
@@ -47,7 +47,7 @@ flowchart LR
 
     %% --- “CEINTURE + BRETELLES” (force le style sur les 2 nœuds) ---
     style start font-size:32px,font-weight:bold
-    style fin   font-size:32px,font-weight:bold
+    %%style fin   font-size:32px,font-weight:bold
 
     %% --- Codes couleur (commentaires) ---
     %% Bleu marine #000080
