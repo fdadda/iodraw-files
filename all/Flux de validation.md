@@ -9,13 +9,13 @@ flowchart LR
     B --> decision {Réussie ?}
     end
     subgraph Validation
-        C -- Oui --> D[Validation opérationnelle]
+        decision  -- Oui --> D[Validation opérationnelle]
         D -- DSI/AM --> J[Prévenir le RAF]
         
     end
     J --> End((End)) 
     subgraph Investigation
-        C -- Non --> E[Prévenir DSIN/AM]
+        decision  -- Non --> E[Prévenir DSIN/AM]
         E --> F[Prévenir le RAF]
         E --> G[Investigation avec le support de l'éditeur si nécessaire]
         G --> H[Modification de la procédure]
