@@ -30,7 +30,7 @@ flowchart LR
         E --> G[Investigation avec le support de l'éditeur si nécessaire]
         G --> H[Modification de la procédure]
         H --> EXEC[Exécution de la procédure]
-        H --> I{Réussie ?}
+        EXEC --> I{Réussie ?}
         I -->|<b>Oui</b>| F
         I -->|<b>Non</b>| G
     end
