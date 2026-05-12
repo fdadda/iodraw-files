@@ -1,7 +1,7 @@
 ```mermaid
 flowchart LR
 
-    start((Start)) --> A
+    Point((Start)) --> A
     classDef startStyle fill:#000,stroke:#000,color:#fff
     class Point startStyle
     A(fa:fa-user DSIN/SERU) --> B[Exécution de la procédure]
@@ -13,7 +13,7 @@ flowchart LR
         D -- DSI/AM --> J[Prévenir le RAF]
         
     end
-    J --> endProc((End)):::startStyle
+    J --> Point((End)):::startStyle
     subgraph Investigation
         C -- Non --> E[Prévenir DSIN/AM]
         E --> F[Prévenir le RAF]
