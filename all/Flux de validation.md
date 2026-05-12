@@ -18,7 +18,7 @@ flowchart LR
         D --> Val{Réussie ?}
 
         Val -->|Oui| PrevDSI(fa:fa-user Prévenir DSI/AM)
-        %%Val -->|Oui| PrevRAF(fa:fa-user Prévenir le RAF)
+       
 
         PrevDSI --> fin((Fin))
         PrevDSI  --> PrevRAF(fa:fa-user Prévenir le RAF)
