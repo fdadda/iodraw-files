@@ -30,8 +30,8 @@ flowchart LR
         E --> G[Investigation avec le support de l'éditeur si nécessaire]
         G --> H[Modification de la procédure]
         H --> I{Réussie ?}
-        I -->|Oui| F
-        I -->|Non| E
+        I -->|<b>Oui</b>| F
+        I -->|<b>Oui</b>| E
     end
 
     F ==>|Planification de la nouvelle intervention| A
