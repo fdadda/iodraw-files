@@ -17,8 +17,8 @@ flowchart LR
 
         D --> Val{Réussie ?}
 
-        Val -->|Oui| PrevDSI[Prévenir DSI/AM]
-        Val -->|Oui| PrevRAF[Prévenir le RAF]
+        Val -->|Oui| PrevDSIPrévenir DSI/AM]
+        %%Val -->|Oui| PrevRAF[Prévenir le RAF]
 
         PrevDSI --> fin((Fin))
         PrevDSI  --> PrevRAF[Prévenir le RAF]
