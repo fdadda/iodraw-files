@@ -1,12 +1,7 @@
 ```mermaid
-{init: {
-  "theme":"base",
-  "themeVariables": { "fontSize":"16px" },
-  "themeCSS": ".nodeLabel{font-weight:700;} .edgeLabel{font-weight:700;}"
-}}%%
 flowchart LR
 
-    start((Début)) --> A
+    start((Start)) --> A
     A(fa:fa-user DSIN/SERU) --> B[Exécution de la procédure]
 
     subgraph Exécution de la migration Windows 11 sur les postes de caisse ELISATH
@@ -18,7 +13,7 @@ flowchart LR
         D -->|DSI/AM| J[Prévenir le RAF]
     end
 
-    J --> End((Fin))
+    J --> fin((Fin))
 
     subgraph Investigation
         C -->|Non| E[Prévenir DSIN/AM]
@@ -33,14 +28,18 @@ flowchart LR
     F -->|Planification de la nouvelle intervention| A
 
     %% --- STYLES ---
-    classDef StartEndPoint fill:#c40466,stroke:#000,color:#fff,stroke-width:2px;
+    classDef StartEndPoint fill:#c40466,stroke:#000,color:#fff,stroke-width:2px,font-size:16px,font-weight:bold;
     classDef decision      fill:#ffd54f,stroke:#f57f17,color:#000,stroke-width:2px;
     classDef error         fill:#e53935,stroke:#b71c1c,color:#fff,stroke-width:2px;
 
     %% --- AFFECTATION DES CLASSES ---
-    class start,End StartEndPoint;
+    class start,fin StartEndPoint;
     class C,I decision;
     class E,F,J error;
+
+    %% --- “CEINTURE + BRETELLES” (force le style sur les 2 nœuds) ---
+    style start font-size:16px,font-weight:bold
+    style fin   font-size:16px,font-weight:bold
 
     %% --- Coide couleur ---
     %% Bleu marine #000080 un peu plus doux
