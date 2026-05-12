@@ -9,7 +9,13 @@ flowchart LR
     end
 
     subgraph Validation
-        C -->|Oui| D[Validation opérationnelle]
+        C -->|Oui| 
+D["Validation opérationnelle<br/><br/>
+    · Lancement d’Elisath<br/>
+    · Ouverture de caisse<br/>
+    · Réalisation d’une opération de caisse<br/>
+    · Lecture et encodage d’un badge"]
+
         D -->|DSI/AM| J[Prévenir le RAF]
     end
 
@@ -39,7 +45,7 @@ flowchart LR
 
     %% --- “CEINTURE + BRETELLES” (force le style sur les 2 nœuds) ---
     style start font-size:32px,font-weight:bold
-    style fin   font-size:px,font-weight:bold
+    style fin   font-size:32px,font-weight:bold
 
     %% --- Coide couleur ---
     %% Bleu marine #000080 un peu plus doux
