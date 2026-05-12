@@ -38,8 +38,8 @@ flowchart LR
     class E,F,J error;
 
     %% --- “CEINTURE + BRETELLES” (force le style sur les 2 nœuds) ---
-    style start font-size:66px,font-weight:bold
-    style fin   font-size:16px,font-weight:bold
+    style start font-size:32px,font-weight:bold
+    style fin   font-size:px,font-weight:bold
 
     %% --- Coide couleur ---
     %% Bleu marine #000080 un peu plus doux
