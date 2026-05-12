@@ -23,7 +23,7 @@ flowchart LR
         PrevDSI  --> PrevRAF(fa:fa-user Prévenir le RAF)
     end
      PrevDSI ==> fin((Fin))
-    Val --> |Non| E
+    Val --> |<b>Oui</b>| E
     subgraph Investigation
         C -->|Non| E(fa:fa-user Prévenir DSI/AM)
         E --> F(fa:fa-user Prévenir le RAF)
