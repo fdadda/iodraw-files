@@ -22,7 +22,7 @@ flowchart LR
         PrevDSI --> fin((Fin))
         PrevDSI  --> PrevRAF(fa:fa-user Prévenir le RAF)
     end
-
+    Val --> |Non| E
     subgraph Investigation
         C -->|Non| E(fa:fa-user Prévenir DSI/AM)
         E --> F(fa:fa-user Prévenir le RAF)
@@ -36,7 +36,7 @@ flowchart LR
     F -->|Planification de la nouvelle intervention| A
 
     %% --- STYLES ---
-    classDef StartEndPoint fill:#c40466,stroke:#000,color:#fff,stroke-width:2px,font-size:16px,font-weight:bold;
+    classDef StartEndPoint fill:#c40466,stroke:#000,color:#fff,stroke-width:2px,font-size:6,font-weight:bold;
     classDef decision      fill:#ffd54f,stroke:#f57f17,color:#000,stroke-width:2px;
     classDef error         fill:#e53935,stroke:#b71c1c,color:#fff,stroke-width:2px;
 
