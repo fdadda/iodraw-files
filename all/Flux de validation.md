@@ -9,7 +9,7 @@ flowchart LR
     end
 
     subgraph 
-        TitreVal(Validation)
+        
         C -->|Oui| D["Validation opérationnelle<br/><br/>
             · Lancement d’Elisath<br/>
             · Ouverture de caisse<br/>
