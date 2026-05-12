@@ -16,10 +16,7 @@ flowchart LR
             · Lecture et encodage d’un badge"]
 
         D --> Val{Réussie ?}
-
         Val -->|<b>Oui</b>| PrevDSI(fa:fa-user Prévenir DSI/AM)
-       
-       
         PrevDSI  --> PrevRAF(fa:fa-user Prévenir le RAF)
     end
      PrevDSI ==> fin((Fin))
