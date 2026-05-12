@@ -21,7 +21,7 @@ flowchart LR
         Val -->|Oui| PrevRAF[Prévenir le RAF]
 
         PrevDSI --> fin((Fin))
-        PrevRAF --> fin
+        PrevDSI  --PrevRAF --> fin
     end
 
     subgraph Investigation
