@@ -13,7 +13,7 @@ flowchart LR
         D -- DSI/AM --> J[Prévenir le RAF]
         
     end
-    J --> End((End)) 
+    J --> End((Point)) 
     subgraph Investigation
         C -- Non --> E[Prévenir DSIN/AM]
         E --> F[Prévenir le RAF]
