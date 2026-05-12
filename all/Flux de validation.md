@@ -34,7 +34,7 @@ flowchart LR
         I -->|<b>Non</b>| G
     end
 
-    F ==>|<b>Planification de la nouvelle intervention| A
+    F ==>|<b>Planification de la nouvelle intervention</b>| A
 
     %% --- STYLES ---
     classDef StartEndPoint  fill:#c40466,stroke:#000,color:#fff,stroke-width:2px,font-size:32px,font-weight:bold;
