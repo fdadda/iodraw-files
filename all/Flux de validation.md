@@ -10,15 +10,19 @@ flowchart LR
 
     subgraph Validation
         C -->|Oui| D["Validation opérationnelle<br/><br/>
-                    · Lancement d’Elisath<br/>
-                    · Ouverture de caisse<br/>
-                    · Réalisation d’une opération de caisse<br/>
-                    · Lecture et encodage d’un badge"]
-        D --> Val{Réussie ?}
-        Val -- Oui --> Prev (Prévenir DSI/AM) & (Prévenir le RAF)
-    end
+            · Lancement d’Elisath<br/>
+            · Ouverture de caisse<br/>
+            · Réalisation d’une opération de caisse<br/>
+            · Lecture et encodage d’un badge"]
 
-    J --> fin((Fin))
+        D --> Val{Réussie ?}
+
+        Val -->|Oui| PrevDSI[Prévenir DSI/AM]
+        Val -->|Oui| PrevRAF[Prévenir le RAF]
+
+        PrevDSI --> fin((Fin))
+        PrevRAF --> fin
+    end
 
     subgraph Investigation
         C -->|Non| E[Prévenir DSIN/AM]
@@ -39,20 +43,19 @@ flowchart LR
 
     %% --- AFFECTATION DES CLASSES ---
     class start,fin StartEndPoint;
-    class C,I decision;
-    class E,F,J error;
+    class C,I,Val decision;
+    class E,F,PrevDSI,PrevRAF error;
 
     %% --- “CEINTURE + BRETELLES” (force le style sur les 2 nœuds) ---
     style start font-size:32px,font-weight:bold
     style fin   font-size:32px,font-weight:bold
 
-    %% --- Coide couleur ---
-    %% Bleu marine #000080 un peu plus doux
-    %% Midnight blue #191970 bleu nuit profond 
-    %% Bleu foncé intense #080F70 plus “design”, légèrement grisé 
-    %% Bleu foncé moderne #111184 un peu plus lumineux
+    %% --- Codes couleur (commentaires) ---
+    %% Bleu marine #000080
+    %% Midnight blue #191970
+    %% Bleu foncé intense #080F70
+    %% Bleu foncé moderne #111184
     %% Orange #ffd54f
     %% Rouge #e53935
     %% Rose CAPI #c40466
-
 ```
