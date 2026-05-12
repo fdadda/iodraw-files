@@ -41,6 +41,7 @@ flowchart LR
     %% --- Coide couleur ---
     %% Bleu marine #000080 un peu plus doux
     %% Midnight blue #191970 bleu nuit profond 
-    %% Bleu foncé intense #080F70 plus “design”, légèrement grisé [htmlcouleur.com]Bleu foncé moderne#111184un peu plus lumineux [figma.com]
+    %% Bleu foncé intense #080F70 plus “design”, légèrement grisé 
+    Bleu foncé moderne#111184un peu plus lumineux [figma.com]
 
 ```
