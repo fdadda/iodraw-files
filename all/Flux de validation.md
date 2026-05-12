@@ -4,6 +4,11 @@ flowchart LR
     classDef startStyle fill:#000,stroke:#000,color:#fff
     class Start startStyle
     class End startStyle
+    
+  classDef start fill:#000,stroke:#000,color:#fff,stroke-width:2px;
+    classDef decision fill:#ffd54f,stroke:#f57f17,color:#000,stroke-width:2px;
+    classDef error fill:#e53935,stroke:#b71c1c,color:#fff,stroke-width:2px;
+
 
     Start((Start)) --> A
     A(fa:fa-user DSIN/SERU) --> B[Exécution de la procédure]
