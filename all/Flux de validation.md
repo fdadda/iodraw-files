@@ -48,4 +48,6 @@ flowchart LR
     %% Bleu foncé intense #080F70 plus “design”, légèrement grisé 
     %% Bleu foncé moderne #111184 un peu plus lumineux
     %% Orange #ffd54f
+    %% Rouge #e53935
+    R
 ```
