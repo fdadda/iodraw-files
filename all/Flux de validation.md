@@ -8,7 +8,7 @@ flowchart LR
         B --> C{Réussie ?}
     end
 
-    subgraph <b>Validation
+    subgraph Validation
         C -->|<b>Oui</b>| D["Validation opérationnelle<br/><br/>
             · Lancement d’Elisath<br/>
             · Ouverture de caisse<br/>
