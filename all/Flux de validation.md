@@ -49,5 +49,5 @@ flowchart LR
     %% Bleu foncé moderne #111184 un peu plus lumineux
     %% Orange #ffd54f
     %% Rouge #e53935
-    %% Rose CAPI 
+    %% Rose CAPI #c4046
 ```
