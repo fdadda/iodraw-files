@@ -35,5 +35,5 @@ flowchart LR
     %% --- AFFECTATION DES CLASSES ---
     class start,End start;
     class C,I decision;
-    class E,F error;
+    class E,F,J error;
 ```
