@@ -23,7 +23,7 @@ flowchart LR
     end
 
     subgraph Investigation
-        C -->|Non| E[Prévenir DSIN/AM]
+        C -->|Non| E(fa:fa-user Prévenir DSI/AM)
         E --> F[Prévenir le RAF]
         E --> G[Investigation avec le support de l'éditeur si nécessaire]
         G --> H[Modification de la procédure]
