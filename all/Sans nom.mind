@@ -1,1 +1,1 @@
-{"root":{"data":{"id":"diheg9cw9080","created":1778660290870,"text":"Thème central"},"children":[{"data":{"id":"diheggyw4wg0","created":1778660307437,"text":"Thèmes subsidiaires"},"children":[]}]},"template":"default","theme":"fresh-blue","version":"1.4.43"}
+{"root":{"data":{"id":"diheg9cw9080","created":1778660290870,"text":"Thème central","priority":1},"children":[{"data":{"id":"diheggyw4wg0","created":1778660307437,"text":"test"},"children":[]}]},"template":"default","theme":"fresh-blue","version":"1.4.43"}
