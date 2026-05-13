@@ -44,7 +44,7 @@ flowchart LR
     class start,fin StartEndPoint;
     class C,I,Val Decision;
     class A,E,F,PrevDSI,PrevRAF Error;
-    class B,D,G,H,EXEC,CLOS Action;
+    class B,D,G,H,EXEC,CLOSING Action;
     %% --- “CEINTURE + BRETELLES” (force le style sur les 2 nœuds) ---
     %%style start font-size:32px,font-weight:bold
     %%style fin   font-size:32px,font-weight:bold
