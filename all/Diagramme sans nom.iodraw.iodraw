@@ -20,8 +20,8 @@
         <mxCell id="aupW2OrQ-ydOHTXoH0S4-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-20" source="dNxyNK7c78bLwvsdeMH5-23" target="aupW2OrQ-ydOHTXoH0S4-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="60" y="110" />
-              <mxPoint x="110" y="110" />
+              <mxPoint x="60" y="100" />
+              <mxPoint x="110" y="100" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -50,7 +50,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aupW2OrQ-ydOHTXoH0S4-18" value="IICS" style="shape=actor;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=8;fontStyle=1" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
-          <mxGeometry x="100" y="50" width="20" height="40" as="geometry" />
+          <mxGeometry x="100" y="80" width="20" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="Réalisation et Vérification" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#FFE6CC;strokeColor=#D79B00;swimlaneFillColor=#FFE6CC;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" y="120" width="790" height="180" as="geometry">
