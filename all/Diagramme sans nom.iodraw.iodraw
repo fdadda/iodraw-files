@@ -175,7 +175,7 @@
         <mxCell id="aupW2OrQ-ydOHTXoH0S4-44" value="Priorisation&lt;div&gt;du ticket&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontStyle=1" vertex="1" parent="aupW2OrQ-ydOHTXoH0S4-30">
           <mxGeometry x="160" y="40" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="aupW2OrQ-ydOHTXoH0S4-49" value="Priorisation&lt;div&gt;du ticket&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontStyle=1" vertex="1" parent="aupW2OrQ-ydOHTXoH0S4-30">
+        <mxCell id="aupW2OrQ-ydOHTXoH0S4-49" value="A traiter" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontStyle=1" vertex="1" parent="aupW2OrQ-ydOHTXoH0S4-30">
           <mxGeometry x="460" y="40" width="70" height="50" as="geometry" />
         </mxCell>
       </root>
