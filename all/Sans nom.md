@@ -1,5 +1,5 @@
 ```mermaid
-flowchart LR
+flowchart TD
 
 %% Définition des styles
 classDef metier fill:#E3F2FD,stroke:#1E88E5,stroke-width:2px;
