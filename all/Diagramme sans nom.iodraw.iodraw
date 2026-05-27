@@ -29,7 +29,7 @@
           <mxGeometry x="40" y="40" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-24" value="Remplissage de la check-list avec l&#39;analyse d&#39;impact" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;align=center;fillColor=#CCFFCC;strokeColor=#6F0000;gradientColor=none;gradientDirection=radial;verticalAlign=middle;fontStyle=1" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
-          <mxGeometry x="150" y="30" width="140" height="40" as="geometry" />
+          <mxGeometry x="160" y="50" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" parent="dNxyNK7c78bLwvsdeMH5-20" source="dNxyNK7c78bLwvsdeMH5-30" target="dNxyNK7c78bLwvsdeMH5-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -50,7 +50,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aupW2OrQ-ydOHTXoH0S4-18" value="IICS" style="shape=actor;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=8;fontStyle=1" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
-          <mxGeometry x="100" y="60" width="20" height="40" as="geometry" />
+          <mxGeometry x="100" y="50" width="20" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="Réalisation et Vérification" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#FFE6CC;strokeColor=#D79B00;swimlaneFillColor=#FFE6CC;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" y="120" width="790" height="180" as="geometry">
