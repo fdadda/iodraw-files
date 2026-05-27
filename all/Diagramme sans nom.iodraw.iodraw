@@ -131,7 +131,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aupW2OrQ-ydOHTXoH0S4-30" value="Préparation" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#D5E8D4;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="aupW2OrQ-ydOHTXoH0S4-30" value="Initialisation" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#D5E8D4;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="30" y="-450" width="790" height="230" as="geometry" />
         </mxCell>
         <mxCell id="aupW2OrQ-ydOHTXoH0S4-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="aupW2OrQ-ydOHTXoH0S4-30" source="aupW2OrQ-ydOHTXoH0S4-33" target="aupW2OrQ-ydOHTXoH0S4-39">
