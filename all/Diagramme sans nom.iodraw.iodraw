@@ -186,9 +186,6 @@
         <mxCell id="aupW2OrQ-ydOHTXoH0S4-42" value="Identifier les acteurs IICS sur&amp;nbsp;&lt;div style=&quot;font-size: 8px;&quot;&gt;les sujets à traiter&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fillColor=#fad9d5;strokeColor=#ae4132;fontSize=8;" vertex="1" parent="aupW2OrQ-ydOHTXoH0S4-30">
           <mxGeometry x="60" y="120" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aupW2OrQ-ydOHTXoH0S4-43" value="&lt;span style=&quot;font-size: 8px; text-align: left;&quot;&gt;Identifier les acteurs IICS sur&amp;nbsp;&lt;/span&gt;&lt;div style=&quot;font-size: 8px; text-align: left;&quot;&gt;les sujets à traiter&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="aupW2OrQ-ydOHTXoH0S4-30">
-          <mxGeometry x="384" y="30" width="80" height="80" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
