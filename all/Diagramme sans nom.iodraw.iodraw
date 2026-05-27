@@ -152,7 +152,7 @@
           <mxGeometry x="20" y="40" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="aupW2OrQ-ydOHTXoH0S4-34" value="Validation de la disponibilité et de la priorisation des acteurs sur le ticket" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;align=center;fillColor=#CCFFCC;strokeColor=#6F0000;gradientColor=none;gradientDirection=radial;verticalAlign=middle;fontStyle=1" vertex="1" parent="aupW2OrQ-ydOHTXoH0S4-30">
-          <mxGeometry x="460" y="110" width="143" height="44" as="geometry" />
+          <mxGeometry x="270" y="43" width="143" height="44" as="geometry" />
         </mxCell>
         <mxCell id="aupW2OrQ-ydOHTXoH0S4-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=8;" edge="1" parent="aupW2OrQ-ydOHTXoH0S4-30" source="aupW2OrQ-ydOHTXoH0S4-36" target="aupW2OrQ-ydOHTXoH0S4-37">
           <mxGeometry relative="1" as="geometry" />
