@@ -154,8 +154,8 @@
         <mxCell id="aupW2OrQ-ydOHTXoH0S4-33" value="Début" style="ellipse;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="aupW2OrQ-ydOHTXoH0S4-30">
           <mxGeometry x="40" y="51" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aupW2OrQ-ydOHTXoH0S4-34" value="Remplissage de la check-list avec l&#39;analyse d&#39;impact" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;align=center;fillColor=#CCFFCC;strokeColor=#6F0000;gradientColor=none;gradientDirection=radial;verticalAlign=middle;fontStyle=1" vertex="1" parent="aupW2OrQ-ydOHTXoH0S4-30">
-          <mxGeometry x="127" y="46" width="140" height="40" as="geometry" />
+        <mxCell id="aupW2OrQ-ydOHTXoH0S4-34" value="Validation de la disponibilité et de la priorisation des acteurs sur le ticket" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;align=center;fillColor=#CCFFCC;strokeColor=#6F0000;gradientColor=none;gradientDirection=radial;verticalAlign=middle;fontStyle=1" vertex="1" parent="aupW2OrQ-ydOHTXoH0S4-30">
+          <mxGeometry x="127" y="46" width="143" height="44" as="geometry" />
         </mxCell>
         <mxCell id="aupW2OrQ-ydOHTXoH0S4-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=8;" edge="1" parent="aupW2OrQ-ydOHTXoH0S4-30" source="aupW2OrQ-ydOHTXoH0S4-36" target="aupW2OrQ-ydOHTXoH0S4-37">
           <mxGeometry relative="1" as="geometry" />
