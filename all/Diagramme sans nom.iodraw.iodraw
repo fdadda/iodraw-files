@@ -165,15 +165,10 @@
         </mxCell>
         <mxCell id="aupW2OrQ-ydOHTXoH0S4-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="aupW2OrQ-ydOHTXoH0S4-30" source="aupW2OrQ-ydOHTXoH0S4-39">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="70" as="targetPoint" />
+            <mxPoint x="130" y="60" as="targetPoint" />
             <Array as="points">
               <mxPoint x="161" y="30" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aupW2OrQ-ydOHTXoH0S4-47" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aupW2OrQ-ydOHTXoH0S4-46">
-          <mxGeometry x="0.4536" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aupW2OrQ-ydOHTXoH0S4-39" value="AM" style="shape=actor;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=8;" vertex="1" parent="aupW2OrQ-ydOHTXoH0S4-30">
