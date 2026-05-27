@@ -152,7 +152,7 @@
           <mxGeometry x="20" y="40" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="aupW2OrQ-ydOHTXoH0S4-34" value="Validation de la disponibilité et de la priorisation des acteurs sur le ticket" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;align=center;fillColor=#CCFFCC;strokeColor=#6F0000;gradientColor=none;gradientDirection=radial;verticalAlign=middle;fontStyle=1" vertex="1" parent="aupW2OrQ-ydOHTXoH0S4-30">
-          <mxGeometry x="127" y="46" width="143" height="44" as="geometry" />
+          <mxGeometry x="460" y="110" width="143" height="44" as="geometry" />
         </mxCell>
         <mxCell id="aupW2OrQ-ydOHTXoH0S4-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=8;" edge="1" parent="aupW2OrQ-ydOHTXoH0S4-30" source="aupW2OrQ-ydOHTXoH0S4-36" target="aupW2OrQ-ydOHTXoH0S4-37">
           <mxGeometry relative="1" as="geometry" />
@@ -185,6 +185,9 @@
         </mxCell>
         <mxCell id="aupW2OrQ-ydOHTXoH0S4-42" value="Identifier les acteurs IICS sur&amp;nbsp;&lt;div style=&quot;font-size: 8px;&quot;&gt;les sujets à traiter&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fillColor=#fad9d5;strokeColor=#ae4132;fontSize=8;" vertex="1" parent="aupW2OrQ-ydOHTXoH0S4-30">
           <mxGeometry x="60" y="120" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aupW2OrQ-ydOHTXoH0S4-44" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="aupW2OrQ-ydOHTXoH0S4-30">
+          <mxGeometry x="330" y="30" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
