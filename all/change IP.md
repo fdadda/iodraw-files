@@ -1,8 +1,10 @@
 ```mermaid
-graph TD
-    A[fa:fa-user Tom] -->|Get money| B(Go shopping)
-    B --> C{Select}
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
+stateDiagram-v2
+    [*] --> Still
+    Still --> [*]
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+            
 ```
