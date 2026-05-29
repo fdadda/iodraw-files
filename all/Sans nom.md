@@ -10,7 +10,7 @@ classDef decision fill:#FFF3E0,stroke:#FB8C00,stroke-width:2px;
 subgraph METIER [MOA / Equipe Métier]
     M1["Qualification du besoin métier\n(contraintes GEO : latence, cartographie)"]:::metier
     M2["Validation flux critiques\nAPI cartographiques / DB géo"]:::metier
-    M3["Validation plan de test PROD \n (sans pré-prod)"]:::metier
+    M3["Validation plan de test PROD  (sans pré-prod)"]:::metier
     M4["Validation fenêtre de bascule\n(risque métier accepté)"]:::metier
     M5["Test fonctionnel immédiat\n(accès maps, calculs GEO, login)"]:::metier
     M6[Analyse anomalies métier]:::metier
