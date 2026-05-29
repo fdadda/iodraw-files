@@ -1,12 +1,26 @@
 ```mermaid
-  journey
-    title My working day
-    section Go to work
-      Make tea: 5: Me
-      Go upstairs: 3: Me
-      Do work: 1: Me, Cat
-    section Go home
-      Go downstairs: 5: Me
-      Sit down: 3: Me
-      
+zenuml
+    title Order Service
+    @Actor Client #FFEBE6
+    @Boundary OrderController #0747A6
+    @EC2 <<BFF>> OrderService #E3FCEF
+    group BusinessService {
+      @Lambda PurchaseService
+      @AzureFunction InvoiceService
+    }
+
+    @Starter(Client)
+    // `POST /orders`
+    OrderController.post(payload) {
+      OrderService.create(payload) {
+        order = new Order(payload)
+        if(order != null) {
+          par {
+            PurchaseService.createPO(order)
+            InvoiceService.createInvoice(order)      
+          }      
+        }
+      }
+    }		
+	  
 ```
