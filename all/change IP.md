@@ -6,5 +6,4 @@ stateDiagram-v2
     Moving --> Still
     Moving --> Crash
     Crash --> [*]
-            
 ```
