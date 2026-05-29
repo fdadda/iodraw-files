@@ -41,5 +41,4 @@ M2 -.-> |Dépendance API cartographique| I8
 M3 -.-> |Dépendance DNS / URL stable| I6
 M4 -.-> |Sensibilité latence GEO| I8
 M6 -.-> |Affichage carte temps réel| I9
-
 ```
