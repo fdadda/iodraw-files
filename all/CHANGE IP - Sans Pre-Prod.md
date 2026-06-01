@@ -1,5 +1,5 @@
 ```mermaid
-flowchart LR
+flowchart T
 
 %% Styles
 classDef metier fill:#9d0048,stroke:#f57f17,color:#ffffff,font-size:32px;
@@ -33,7 +33,7 @@ D0 -->|Non validée| START
 
 %% Passage vers suite
 D0 -->|Validée| M1
-
+D0 -->|Validée| I1
 
 %% Bloc Métier
 subgraph METIER [-- MOA / Equipe Métier --]
