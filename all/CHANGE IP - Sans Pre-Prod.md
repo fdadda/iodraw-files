@@ -71,7 +71,7 @@ subgraph RECETTE [-- Recette Métier --]
     M5["Test fonctionnel immédiat"]:::recette
     M6["Analyse anomalies métier"]:::recette
     D2{"Recette OK ?"}:::decision
-    M7["Validation finale métier"]:::recette
+    D37["Validation finale métier"]:::recette
 end
 
 %% Ordonnancement visuel
@@ -83,7 +83,7 @@ end
 
 %% Workflow Métier
 M1 --> M2 --> M3 --> M4
-
+M1 --> M3A
 M4 -->|GO bascule| I1
 
 %% Workflow Infra
