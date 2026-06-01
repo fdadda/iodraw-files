@@ -63,10 +63,10 @@ end
 %% Ordonnancement visuel
 METIER --> INFRA --> RECETTE
 %%linkStyle 0 opacity:0
-linkStyle 1 opacity:0
+%%linkStyle 1 opacity:0
 
 %% Workflow Métier
-D0 -- Validée --> M1 --> M2 --> M3 --> M4
+ M1 --> M2 --> M3 --> M4
 M4 -->|GO bascule| I1
 
 %% Workflow Infra
