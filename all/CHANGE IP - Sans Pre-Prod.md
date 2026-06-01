@@ -3,7 +3,7 @@ flowchart LR
 
 %% Styles
 classDef metier fill:#E3F2FD,stroke:#1E88E5,stroke-width:2px;
-classDef infra fill:#E8F5E9,stroke:#43A047,stroke-width:2px;
+classDef infra fill:#9d0048,stroke:#f57f17,color:#fff,stroke-width:2px,font-size:24px,font-weight:bold;
 classDef decision fill:#FFF3E0,stroke:#FB8C00,stroke-width:2px;
 
 classDef StartEndPoint  fill:#c40466,stroke:#000,color:#fff,stroke-width:2px,font-size:32px,font-weight:bold;
