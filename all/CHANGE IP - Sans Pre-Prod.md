@@ -12,7 +12,7 @@ classDef risk fill:#d32f2f,stroke:#b71c1c,color:#ffffff,font-size:32px;
 subgraph METIER [-- MOA / Equipe Métier --]
     direction TB
     M1["Qualification du besoin métier"]:::metier
-    M2["Analyse d'impact métier"]:::metier
+    M0["Analyse d'impact métier"]:::metier
     M3["Identification des flux critiques"]:::metier
     M4["Validation plan de test PROD"]:::metier
     M5["Validation fenêtre de bascule"]:::metier
@@ -55,7 +55,7 @@ M1 --> M2 --> M3 --> M4
 M4 -->|GO bascule| I1
 
 %% Workflow Infra
-I0 --> D0I1 --> I2 --> I3 --> I4 --> I5 --> I6 --> I7 --> D1
+I0 --> D0 --> I1 --> I2 --> I3 --> I4 --> I5 --> I6 --> I7 --> D1
 
 %% Décision technique
 D1 -->|Oui| M5
