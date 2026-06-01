@@ -30,9 +30,10 @@ subgraph INFRA [-- Equipe Infra Réseau --]
 end
 
 %% Workflow
+I1 --> I2 --> I3 --> I4 --> I5 --> I6 --> I7
+
 M1 --> M2 --> M3 --> M4
 M4 -->|GO bascule| I1
-
 
 
 I7 -->|Tests OK| M5
