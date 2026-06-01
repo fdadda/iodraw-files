@@ -75,7 +75,7 @@ end
 
 %% Ordonnancement visuel
 METIER --> INFRA --> RECETTE
-fi((Fin)):::metierSTART((Début)):::metier
+FIN((Fin)):::metierS 
 
 %% Workflow Métier
 M1 --> M2 --> M3 --> M4
