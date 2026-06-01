@@ -56,7 +56,7 @@ subgraph INFRA [-- Equipe Infra Réseau --]
     I4["Accès LAN prêt"]:::infra
     I5["Changement IP PROD"]:::infra
     I6["Mise à jour DNS / proxy"]:::infra
-    I7["Tests techniques rapides"]:::infra
+    I7["Tests techniques rapides"]:::recette
     D1{"Tests techniques OK ?"}:::decision
     R1["Risque technique détecté"]:::risk
     I9["Rollback / correction rapide"]:::risk
@@ -107,5 +107,5 @@ M7 --> I8
 %% Dépendances GEO
 %%M2 -.->|Dépendances carto| I7
 %%M5 -.->|Tests maps temps réel| I8
-M6 -.->|Sensibilité latence| I8
+%%M6 -.->|Sensibilité latence| I8
 ```
