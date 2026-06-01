@@ -38,7 +38,7 @@ D0 ==> |Non validée| START
 
 %% Passage vers suite
 %%D0 -->|Validée| M1
-D0 -->|Validée| I1
+%%D0 -->|Validée| I1
 
 %% Bloc Métier
 subgraph METIER [-- MOA / Equipe Métier --]
@@ -85,7 +85,7 @@ end
 
 
 %% Workflow Métier
-M1 --> M2 --> M3 --> D3
+M1 --> M2 --> M3 %%--> D3
 M1 --> M3A
 D3 -->|GO bascule| I1
 D3 ==> |Analyse complémentaire| M1
