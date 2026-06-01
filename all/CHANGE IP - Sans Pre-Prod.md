@@ -22,7 +22,7 @@ end
 %% Bloc Infra
 subgraph INFRA [-- Equipe Infra Réseau --]
     direction TB
-    I0["Validation fenêtre de bascule"]:::metier
+    I0["Anal"]:::infra
     I1["Cartographie flux DMZ"]:::infra
     I2["Préparation config firewall"]:::infra
     I3["Préparation DNS"]:::infra
