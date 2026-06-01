@@ -49,4 +49,5 @@ M7 --> I8
 M2 -.->|Dépendances externes cartographiques| I7
 M5 -.->|Test affichage cartes temps réel| I8
 M6 -.->|Sensibilité latence et performance| I8
+
 ```
