@@ -54,9 +54,9 @@ end
 subgraph INFRA [-- Equipe Infra Réseau --]
     direction TB
    %% I1["Cartographie flux DMZ"]:::infra
-    I2["Préparation config firewall"]:::infra
-    I3["Préparation DNS"]:::infra
-    I4["Accès LAN prêt"]:::infra
+   %% I2["Préparation config firewall"]:::infra
+   %% I3["Préparation DNS"]:::infra
+   %% I4["Accès LAN prêt"]:::infra
     I5["Changement IP PROD"]:::infra
     I6["Mise à jour DNS / proxy"]:::infra
     I7["Tests techniques rapides"]:::recette
