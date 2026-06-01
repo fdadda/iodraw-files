@@ -42,7 +42,7 @@ D0 ==> |Non validée| START
 
 %% Bloc Métier
 subgraph METIER [-- MOA / Equipe Métier --]
-    direction TB
+    direction BT
     M1["Complément de qualification du besoin métier"]:::metier
     M2["Identification des flux critiques"]:::metier
     M3A["Mise à jour du DEX/Architecture/Fichiers Fournisseurs"]:::metier
