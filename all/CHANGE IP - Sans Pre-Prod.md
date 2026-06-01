@@ -28,6 +28,7 @@ end
 
 RFA(fa:fa-user RFA):::recette
 RFA ==> M1
+RFA(fa:fa-user RFA):::recette
 %% Connexions vers le subgraph
 AM --> S0
 IICS --> S0
