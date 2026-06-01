@@ -21,9 +21,9 @@ subgraph INFRA
     I3["🟠 Préparation DNS"]:::infra
     I4["🟠 Accès LAN prêt"]:::infra
     I5["🟠 Changement IP PROD"]:::infra
-    I6["Maj DNS / proxy"]:::infra
-    I7["Tests techniques"]:::infra
-    I8["Monitoring"]:::infra
+    I6["🟠 Maj DNS / proxy"]:::infra
+    I7["🟠 Tests techniques"]:::infra
+    I8["🟠 Monitoring"]:::infra
     I9["Correction / rollback"]:::infra
 end
 
