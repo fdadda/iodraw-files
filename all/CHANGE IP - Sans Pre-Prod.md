@@ -6,7 +6,7 @@ classDef metier fill:#9d0048,stroke:#f57f17,color:#ffffff,font-size:32px;
 classDef infra fill:#9d0048,stroke:#f57f17,color:#ffffff,font-size:32px;
 
 %% Swimlane Métier
-subgraph METIER 
+subgraph METIER [MOA]
     M1["Qualification du besoin métier\n(contraintes GEO : latence, cartographie)"]:::metier
     M2["Validation flux critiques\nAPI cartographiques / DB géo"]:::metier
     M3["Validation plan de test PROD\n(sans pré-prod)"]:::metier
@@ -17,7 +17,7 @@ subgraph METIER
 end
 
 %% Swimlane Infra
-subgraph INFRA
+subgraph INFRA [Equipe Infra Réseau]
     I1["Cartographie flux existants DMZ\n(accès web, API GEO, DB)"]:::infra
     I2["Préparation config firewall\n(Stormshield / Fortinet)"]:::infra
     I3["Préparation DNS (TTL réduit)"]:::infra
