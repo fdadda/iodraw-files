@@ -105,7 +105,7 @@ D2 -->|Non| I9
 M7 --> I8
 
 %% Dépendances GEO
-M2 -.->|Dépendances carto| I7
-M5 -.->|Tests maps temps réel| I8
+%%M2 -.->|Dépendances carto| I7
+%%M5 -.->|Tests maps temps réel| I8
 M6 -.->|Sensibilité latence| I8
 ```
