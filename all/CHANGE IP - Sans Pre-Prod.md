@@ -12,7 +12,7 @@ classDef risk fill:#d32f2f,stroke:#b71c1c,color:#ffffff,font-size:32px;
 subgraph METIER [-- MOA / Equipe Métier --]
     direction TB
     M1["Qualification du besoin métier"]:::metier
-    M2["Anal"]:::metier
+    M2["Analyse d'impact métier"]:::metier
     M3["Identification des flux critiques"]:::metier
     M4["Validation plan de test PROD"]:::metier
     M5["Validation fenêtre de bascule"]:::metier
@@ -22,6 +22,7 @@ end
 %% Bloc Infra
 subgraph INFRA [-- Equipe Infra Réseau --]
     direction TB
+    
     I1["Cartographie flux DMZ"]:::infra
     I2["Préparation config firewall"]:::infra
     I3["Préparation DNS"]:::infra
