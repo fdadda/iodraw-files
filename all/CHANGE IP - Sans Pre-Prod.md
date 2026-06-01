@@ -17,8 +17,8 @@ IICS(fa:fa-user DSIN/IICS):::infra
 
 START --> AM
 START --> IICS
-*
 
+RFA(fa:fa-user DSIN/IICS):::infra
 %% Subgraph Préparation
 subgraph PREPARATION [-- Préparation de l'opération--]
     direction TB
