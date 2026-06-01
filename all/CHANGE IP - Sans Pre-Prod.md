@@ -62,7 +62,7 @@ end
 
 %% Ordonnancement visuel
 METIER --> INFRA --> RECETTE
-linkStyle 0 opacity:0
+%%linkStyle 0 opacity:0
 linkStyle 1 opacity:0
 
 %% Workflow Métier
