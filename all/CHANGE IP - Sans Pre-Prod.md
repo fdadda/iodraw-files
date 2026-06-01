@@ -26,6 +26,8 @@ subgraph PREPARATION [-- Préparation de l'opération--]
     D0{"Revue d'analyse d'impact"}:::decision
 end
 
+RFA(fa:fa-user RFA):::recette
+RFA ==> M1
 %% Connexions vers le subgraph
 AM --> S0
 IICS --> S0
