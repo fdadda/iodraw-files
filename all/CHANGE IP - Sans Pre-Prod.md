@@ -5,27 +5,28 @@ flowchart LR
 classDef metier fill:#9d0048,stroke:#f57f17,color:#ffffff,font-size:32px;
 classDef infra fill:#9d0048,stroke:#f57f17,color:#ffffff,font-size:32px;
 
-%% Swimlane Métier (MOA)
-subgraph METIER [MOA / Equipe Métier]
-    M1[Qualification du besoin métier\n(contraintes GEO : latence, cartographie)]:::metier
-    M2[Validation flux critiques\nAPI cartographiques / DB géo]:::metier
-    M3[Validation plan de test PROD\n(sans pré-prod)]:::metier
-    M4[Validation fenêtre de bascule\n(risque métier accepté)]:::metier
-    M5[Test fonctionnel immédiat\n(accès maps, calculs GEO, login)]:::metier
-    M6[Analyse anomalies métier]:::metier
-    M7[Validation finale métier]:::metier
+%% Swimlane Métier
+subgraph METIER
+    M1["Qualification du besoin métier\n(contraintes GEO : latence, cartographie)"]:::metier
+    M2["Validation flux critiques\nAPI cartographiques / DB géo"]:::metier
+    M3["Validation plan de test PROD\n(sans pré-prod)"]:::metier
+    M4["Validation fenêtre de bascule\n(risque métier accepté)"]:::metier
+    M5["Test fonctionnel immédiat\n(accès maps, calculs GEO, login)"]:::metier
+    M6["Analyse anomalies métier"]:::metier
+    M7["Validation finale métier"]:::metier
 end
+
 %% Swimlane Infra
-subgraph INFRA [Equipe Infra Réseau]
-    I1[🟠 Cartographie flux existants DMZ\n(accès web, API GEO, DB)]:::infra
-    I2[🟠 Préparation config firewall\n(Stormshield / Fortinet)]:::infra
-    I3[🟠 Préparation DNS (TTL réduit)]:::infra
-    I4[🟠 Mise en place accès LAN prêt\n(règles + proxy)]:::infra
-    I5[Changement IP serveur en PROD\n(direct sans pré-prod)]:::infra
-    I6[Mise à jour DNS et proxy\n(reverse proxy / VIP)]:::infra
-    I7[Tests techniques rapides\n(connectivité, ports, latence GEO)]:::infra
-    I8[Monitoring temps réel\n(flux GEO, performance)]:::infra
-    I9[Correction rapide ou rollback]:::infra
+subgraph INFRA
+    I1["Cartographie flux existants DMZ\n(accès web, API GEO, DB)"]:::infra
+    I2["Préparation config firewall\n(Stormshield / Fortinet)"]:::infra
+    I3["Préparation DNS (TTL réduit)"]:::infra
+    I4["Mise en place accès LAN prêt\n(règles + proxy)"]:::infra
+    I5["Changement IP serveur en PROD\n(direct sans pré-prod)"]:::infra
+    I6["Mise à jour DNS et proxy\n(reverse proxy / VIP)"]:::infra
+    I7["Tests techniques rapides\n(connectivité, ports, latence GEO)"]:::infra
+    I8["Monitoring temps réel\n(flux GEO, performance)"]:::infra
+    I9["Correction rapide ou rollback"]:::infra
 end
 
 %% Workflow
