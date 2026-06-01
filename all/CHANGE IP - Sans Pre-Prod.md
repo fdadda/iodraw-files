@@ -75,7 +75,8 @@ end
 
 %% Ordonnancement visuel
 PREPARATION --> METIER 
-PREPARATION --> INFRA --> RECETTE
+PREPARATION --> INFRA 
+METIER --> RECETTE
 
 
 %% Workflow Métier
