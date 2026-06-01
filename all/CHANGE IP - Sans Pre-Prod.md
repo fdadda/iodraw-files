@@ -21,7 +21,7 @@ START --> IICS
 %% Subgraph Préparation
 subgraph PREPARATION [-- Préparation de l'opération--]
     direction TB
-    S0["Analyse d'impact métier"]:::metier
+    S0["Analyse d'impact métier & I"]:::metier
     D0{"Revue d'analyse d'impact"}:::decision
 end
 
@@ -31,7 +31,7 @@ IICS --> S0
 S0 --> D0
 
 %% Boucle retour vers START
-D0 ==>Non validée| START
+D0 ==> |Non validée| START
 
 %% Passage vers suite
 D0 -->|Validée| M1
