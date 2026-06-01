@@ -69,7 +69,7 @@ FIN((Fin)):::metier
 I8["Monitoring temps réel"]:::recette ==> FIN
 
 %% Bloc Recette
-subgraph RECETTE [-- Recette Métier --]
+subgraph RECETTE [-- Recette Métier/DSIN- --]
     direction LR
     M5["Test fonctionnel immédiat"]:::recette
     M6["Analyse anomalies métier"]:::recette
