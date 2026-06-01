@@ -18,9 +18,9 @@ end
 subgraph INFRA
     I1["🟠 Cartographie flux DMZ"]:::infra
     I2["🟠 Config firewall"]:::infra
-    I3["Préparation DNS"]:::infra
-    I4["Accès LAN prêt"]:::infra
-    I5["Changement IP PROD"]:::infra
+    I3["🟠 Préparation DNS"]:::infra
+    I4["🟠 Accès LAN prêt"]:::infra
+    I5["🟠 Changement IP PROD"]:::infra
     I6["Maj DNS / proxy"]:::infra
     I7["Tests techniques"]:::infra
     I8["Monitoring"]:::infra
