@@ -75,8 +75,8 @@ end
 
 %% Ordonnancement visuel
 %%PREPARATION --> METIER 
-PREPARATION --> INFRA 
-METIER --> RECETTE
+%%PREPARATION --> INFRA 
+%%METIER --> RECETTE
 INFRA --> RECETTE
 
 
