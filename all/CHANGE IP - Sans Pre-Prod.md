@@ -56,11 +56,11 @@ linkStyle 0 opacity:0
 linkStyle 1 opacity:0
 
 %% Workflow Métier
-M0 --> D0 -- Validée --> M1 --> M2 --> M3 --> M4
+D0 -- Validée --> M1 --> M2 --> M3 --> M4
 M4 -->|GO bascule| I1
 
 %% Workflow Infra
- D0 -- Validée --> I1 --> I2 --> I3 --> I4 --> I5 --> I6 --> I7 --> D1
+D0 -- Validée --> I1 --> I2 --> I3 --> I4 --> I5 --> I6 --> I7 --> D1
 
 %% Décision technique
 D1 -->|Oui| M5
