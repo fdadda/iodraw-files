@@ -37,7 +37,7 @@ S0 --> D0
 D0 ==> |Non validée| START
 
 %% Passage vers suite
-D0 -->|Validée| M1
+%%D0 -->|Validée| M1
 D0 -->|Validée| I1
 
 %% Bloc Métier
