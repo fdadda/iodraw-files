@@ -27,6 +27,8 @@ subgraph INFRA
     I9["🟠Correction / rollback"]:::infra
 end
 
+
+
 %% Workflow
 M1 --> M2 --> M3 --> M4
 M4 -->|GO bascule| I1
