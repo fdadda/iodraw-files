@@ -24,7 +24,7 @@ subgraph INFRA [-- Equipe Infra Réseau --]
     I4["Mise en place accès LAN prêt\n(règles + proxy)"]:::infra
     I5["Changement IP serveur en PROD\n(direct sans pré-prod)"]:::infra
     I6["Mise à jour DNS et proxy\n(reverse proxy / VIP)"]:::infra
-    I7["Tests techniques rapides\n(connectivité, ports, latence GEO)"]:::infra
+    I7["Tests techniques rapides\(connectivité, ports, latence GEO)"]:::infra
     I8["Monitoring temps réel\n(flux GEO, performance)"]:::infra
     I9["Correction rapide ou rollback"]:::infra
 end
