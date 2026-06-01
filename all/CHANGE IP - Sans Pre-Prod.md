@@ -7,10 +7,10 @@ classDef infra fill:#9d0048,stroke:#f57f17,color:#ffffff,font-size:32px;
 classDef recette fill:#4caf50,stroke:#2e7d32,color:#ffffff,font-size:32px;
 classDef decision fill:#ffd54f,stroke:#f57f17,color:#000000,font-size:32px;
 classDef risk fill:#d32f2f,stroke:#b71c1c,color:#ffffff,font-size:32px;
-subgrap
+subgraph start 
 start((Start)):::metier ==> AM
     AM(fa:fa-user DSIN/AM):::metier -->I0
-
+end 
 %% Bloc Métier
 subgraph METIER [-- MOA / Equipe Métier --]
     direction TB
