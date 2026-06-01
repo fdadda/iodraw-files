@@ -44,7 +44,7 @@ subgraph METIER [-- MOA / Equipe Métier --]
     M2["Identification des flux critiques"]:::metier
     M3A["Mise à jour du DEX/Architecture/Fichiers Fournisseurs"]:::metier
     M3["Validation plan de test PROD"]:::metier
-    M4["Validation fenêtre de bascule avec IICS"]:::metier
+    D3["Validation fenêtre de bascule avec IICS"]:::metier
 end
 
 %% Bloc Infra
@@ -71,7 +71,7 @@ subgraph RECETTE [-- Recette Métier --]
     M5["Test fonctionnel immédiat"]:::recette
     M6["Analyse anomalies métier"]:::recette
     D2{"Recette OK ?"}:::decision
-    D3"Validation finale métier"]:::decision
+    M7["Validation finale métier"]:::recette
 end
 
 %% Ordonnancement visuel
