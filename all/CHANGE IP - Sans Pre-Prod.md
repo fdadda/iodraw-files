@@ -74,7 +74,8 @@ subgraph RECETTE [-- Recette Métier --]
 end
 
 %% Ordonnancement visuel
-PREPAR--> INFRA --> RECETTE
+PREPARATION --> METIER 
+--> INFRA --> RECETTE
 
 
 %% Workflow Métier
