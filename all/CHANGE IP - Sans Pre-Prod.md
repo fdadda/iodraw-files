@@ -19,7 +19,7 @@ START --> AM
 START --> IICS
 
 %% Subgraph Préparation
-subgraph PREPARATION [-- Préparation --]
+subgraph PREPARATION [-- Préparation d--]
     direction TB
     S0["Analyse d'impact métier"]:::metier
     D0{"Revue d'analyse d'impact"}:::decision
@@ -77,7 +77,7 @@ end
 %%PREPARATION --> METIER 
 %%PREPARATION --> INFRA 
 %%METIER --> RECETTE
-INFRA --> RECETTE
+%%INFRA --> RECETTE
 
 
 %% Workflow Métier
