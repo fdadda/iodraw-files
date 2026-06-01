@@ -13,7 +13,8 @@ AM(fa:fa-user DSIN/AM):::metier --> S0
 IICS(fa:fa-user DSIN/IICS):::infra --> S0
 start((Start)):::metier ==> AM
 start ==> IICS
-AM
+AM-->S0
+
   
    
     
