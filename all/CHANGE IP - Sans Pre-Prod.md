@@ -9,7 +9,7 @@ classDef decision fill:#ffd54f,stroke:#f57f17,color:#000000,font-size:32px;
 classDef risk fill:#d32f2f,stroke:#b71c1c,color:#ffffff,font-size:32px;
 subgraph start 
 start((Start)):::metier ==> AM
-M0["Analyse d'impact métier"]:::metier
+    S0["Analyse d'impact métier"]:::metier
     AM(fa:fa-user DSIN/AM):::metier --> M0
     IICS(fa:fa-user DSIN/IICS):::infra --> M0
 end 
