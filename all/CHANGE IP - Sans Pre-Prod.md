@@ -1,5 +1,5 @@
 ```mermaid
-flowchart LR
+flowchart TD
 
 %% Styles
 classDef metier fill:#9d0048,stroke:#f57f17,color:#ffffff,font-size:32px;
@@ -69,7 +69,7 @@ FIN((Fin)):::metier
 I8["Monitoring temps réel"]:::recette ==> FIN
 
 %% Bloc Recette
-subgraph RECETTE [-- Recette Métier aDSIN-AM --]
+subgraph RECETTE [-- Recette Métier & DSIN/AM --]
     direction LR
     M5["Test fonctionnel immédiat"]:::recette
     M6["Analyse anomalies métier"]:::recette
