@@ -63,7 +63,7 @@ subgraph INFRA [-- Equipe Infra Réseau --]
    
 end
 FIN((Fin)):::metierS 
-I8["Monitoring temps réel"]:::infra ==> FIN
+I8["Monitoring temps réel"]:::recette ==> FIN
 
 %% Bloc Recette
 subgraph RECETTE [-- Recette Métier --]
