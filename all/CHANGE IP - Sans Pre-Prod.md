@@ -40,7 +40,7 @@ D0 -->|Validée| I1
 %% Bloc Métier
 subgraph METIER [-- MOA / Equipe Métier --]
     direction TB
-    M1["Complément deQualification du besoin métier"]:::metier
+    M1["Complément de qualification du besoin métier"]:::metier
     M2["Identification des flux critiques"]:::metier
     M3["Validation plan de test PROD"]:::metier
     M4["Validation fenêtre de bascule"]:::metier
