@@ -20,7 +20,8 @@ IICS(fa:fa-user DSIN/IICS):::infra --> S0
 S0==>D0{"Revue d'analyse d'impact"}:::decision
 D0 ==> |Non validée| START
 end 
-D0 -- Validée -->
+D0 -- Validée --> M1
+
 %% Bloc Métier
 subgraph METIER [-- MOA / Equipe Métier --]
     direction TB
