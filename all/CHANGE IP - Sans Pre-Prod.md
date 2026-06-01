@@ -35,7 +35,7 @@ subgraph INFRA [-- Equipe Infra Réseau --]
     I9["Rollback / correction rapide"]:::risk
     I8["Monitoring temps réel"]:::infra
 end
-
+D
 %% Bloc Recette
 subgraph RECETTE [-- Recette Métier --]
     direction LR
@@ -55,7 +55,7 @@ M1 --> M2 --> M3 --> M4
 M4 -->|GO bascule| I1
 
 %% Workflow Infra
-II1 --> I2 --> I3 --> I4 --> I5 --> I6 --> I7 --> D1
+I0 --> I1 --> I2 --> I3 --> I4 --> I5 --> I6 --> I7 --> D1
 
 %% Décision technique
 D1 -->|Oui| M5
