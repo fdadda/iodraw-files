@@ -13,9 +13,9 @@ subgraph METIER [-- MOA / Equipe Métier --]
     direction TB
     M0["Analyse d'impact métier"]:::metier
     M1["Qualification du besoin métier"]:::metier
-    M23["Identification des flux critiques"]:::metier
-    M4["Validation plan de test PROD"]:::metier
-    M5["Validation fenêtre de bascule"]:::metier
+    M2["Identification des flux critiques"]:::metier
+    M3["Validation plan de test PROD"]:::metier
+    M4["Validation fenêtre de bascule"]:::metier
 
 end
 
