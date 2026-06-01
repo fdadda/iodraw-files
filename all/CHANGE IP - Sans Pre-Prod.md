@@ -2,7 +2,7 @@
 flowchart LR
 
 %% Styles
-classDef metier fill:#E3F2FD,stroke:#1E88E5,stroke-width:2px;
+classDef metier fill:#9d0048,stroke:#f57f17,color:#fff,stroke-width:2px,font-size:24px,font-weight:bold;
 classDef infra fill:#9d0048,stroke:#f57f17,color:#fff,stroke-width:2px,font-size:24px,font-weight:bold;
 classDef decision fill:#ffd54f,stroke:#f57f17,color:#000,stroke-width:2px,font-size:24px,font-weight:bold;
 
