@@ -1,5 +1,5 @@
 ```mermaid
-flowchart LR
+flowchart TD
 
 %% Styles
 classDef metier fill:#9d0048,stroke:#f57f17,color:#ffffff,font-size:32px;
