@@ -40,7 +40,7 @@ D0 -->|Validée| I1
 
 %% Bloc Métier
 subgraph METIER [-- MOA / Equipe Métier --]
-    direction TB
+    direction LR
     M1["Qualification du besoin métier"]:::metier
     M2["Identification des flux critiques"]:::metier
     M3["Validation plan de test PROD"]:::metier
@@ -62,7 +62,7 @@ subgraph INFRA [-- Equipe Infra Réseau --]
     I9["Rollback / correction rapide"]:::risk
    
 end
-FIN((Fin)):::metierS 
+FIN((Fin)):::metier 
 I8["Monitoring temps réel"]:::recette ==> FIN
 
 %% Bloc Recette
