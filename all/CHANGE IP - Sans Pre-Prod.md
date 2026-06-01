@@ -70,7 +70,7 @@ METIER --> INFRA --> RECETTE
 M4 -->|GO bascule| I1
 
 %% Workflow Infra
-D0 -- Validée --> I1 --> I2 --> I3 --> I4 --> I5 --> I6 --> I7 --> D1
+ I1 --> I2 --> I3 --> I4 --> I5 --> I6 --> I7 --> D1
 
 %% Décision technique
 D1 -->|Oui| M5
