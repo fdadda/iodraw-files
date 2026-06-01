@@ -19,7 +19,7 @@ START --> AM
 START --> IICS
 
 RFA(fa:fa-user RFA):::recette
-RFA 
+RFA --> M
 %% Subgraph Préparation
 subgraph PREPARATION [-- Préparation de l'opération--]
     direction TB
