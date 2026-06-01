@@ -51,7 +51,7 @@ linkStyle 0 opacity:0
 linkStyle 1 opacity:0
 
 %% Workflow Métier
-M0--M1 --> M2 --> M3 --> M4
+M0 --> D0 -->M1 --> M2 --> M3 --> M4
 M4 -->|GO bascule| I1
 
 %% Workflow Infra
