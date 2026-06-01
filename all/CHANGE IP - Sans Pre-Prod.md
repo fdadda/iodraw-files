@@ -60,7 +60,7 @@ subgraph INFRA [-- Equipe Infra Réseau --]
     D1{"Tests techniques OK ?"}:::decision
     R1["Risque technique détecté"]:::risk
     I9["Rollback / correction rapide"]:::risk
-    I8["Monitoring temps réel"]:::infra
+   
 end
 
 %% Bloc Recette
