@@ -83,6 +83,7 @@ end
 
 %% Workflow Métier
 M1 --> M2 --> M3 --> M4
+
 M4 -->|GO bascule| I1
 
 %% Workflow Infra
