@@ -16,7 +16,7 @@ start ==> IICS
 AM-->S0
 IICS-->S0
 S0==>D0{"Revue d'analyse d'impact"}:::decision
-D0 --> |Non validée|
+D0 --> |Non validée| s
 end 
 
 %% Bloc Métier
