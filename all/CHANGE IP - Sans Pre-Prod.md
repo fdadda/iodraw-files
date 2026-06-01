@@ -8,8 +8,7 @@ classDef recette fill:#4caf50,stroke:#2e7d32,color:#ffffff,font-size:32px;
 classDef decision fill:#ffd54f,stroke:#f57f17,color:#000000,font-size:32px;
 classDef risk fill:#d32f2f,stroke:#b71c1c,color:#ffffff,font-size:32px;
 
-START --> PREPARATION
-linkStyle 0 opacity:0
+
 
 %% START complètement externe
 START((Début)):::metier
@@ -40,7 +39,7 @@ D0 -->|Validée| I1
 
 %% Bloc Métier
 subgraph METIER [-- MOA / Equipe Métier --]
-    direction LR
+    direction TB
     M1["Qualification du besoin métier"]:::metier
     M2["Identification des flux critiques"]:::metier
     M3["Validation plan de test PROD"]:::metier
