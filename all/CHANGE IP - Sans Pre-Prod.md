@@ -10,8 +10,8 @@ classDef risk fill:#d32f2f,stroke:#b71c1c,color:#ffffff,font-size:32px;
 subgraph start 
 start((Start)):::metier ==> AM
     S0["Analyse d'impact métier"]:::metier
-    AM(fa:fa-user DSIN/AM):::metier --> M0
-    IICS(fa:fa-user DSIN/IICS):::infra --> M0
+    AM(fa:fa-user DSIN/AM):::metier --> S0
+    IICS(fa:fa-user DSIN/IICS):::infra --> S0
 end 
 %% Bloc Métier
 subgraph METIER [-- MOA / Equipe Métier --]
