@@ -15,7 +15,7 @@ start((Start)):::metier ==> AM
 start ==> IICS
 AM-->S0
 IICS-->S0
-S0
+S0==>
   
    
     
