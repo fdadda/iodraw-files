@@ -10,6 +10,7 @@ classDef risk fill:#d32f2f,stroke:#b71c1c,color:#ffffff,font-size:32px;
 START((Début)):::metier
 START ==> AM
 START ==> IICS
+
 subgraph Début 
 S0["Analyse d'impact métier"]:::metier
 AM(fa:fa-user DSIN/AM):::metier --> S0
