@@ -20,7 +20,7 @@ IICS(fa:fa-user DSIN/IICS):::infra --> S0
 AM-->S0
 IICS-->S0
 S0==>D0{"Revue d'analyse d'impact"}:::decision
-D0 --> |Non validée| START
+D0 ==> |Non validée| START
 end 
 
 %% Bloc Métier
