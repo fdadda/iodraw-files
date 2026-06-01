@@ -46,7 +46,7 @@ D0 ==> |Non validée| START
 subgraph METIER [-- MOA / Equipe Métier --]
     direction TB
     M1["Complément de qualification du besoin métier"]:::metier
-    M2["Identification des ni"]:::metier
+    M2["Identification des niveaux de criticité (flux et l"]:::metier
     M3A["Mise à jour du DEX/Architecture/Fichiers Fournisseurs"]:::metier
     M3["Validation plan de test PROD"]:::metier
     D3{"Validation fenêtre de bascule avec IICS et le RFA"}:::decision
