@@ -77,6 +77,7 @@ end
 PREPARATION --> METIER 
 PREPARATION --> INFRA 
 METIER --> RECETTE
+INFRA --> REC
 
 
 %% Workflow Métier
