@@ -16,8 +16,8 @@ subgraph METIER
 end
 
 subgraph INFRA
-    I1[" Cartographie flux DMZ"]:::infra
-    I2["Config firewall"]:::infra
+    I1["🟠 Cartographie flux DMZ"]:::infra
+    I2["🟠 Config firewall"]:::infra
     I3["Préparation DNS"]:::infra
     I4["Accès LAN prêt"]:::infra
     I5["Changement IP PROD"]:::infra
