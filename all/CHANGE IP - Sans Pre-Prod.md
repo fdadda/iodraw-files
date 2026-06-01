@@ -12,10 +12,10 @@ classDef risk fill:#d32f2f,stroke:#b71c1c,color:#ffffff,font-size:32px;
 subgraph METIER [-- MOA / Equipe Métier --]
     direction TB
     M1["Qualification du besoin métier"]:::metier
-    M2"Validation fenêtre de bascule"]:::metier
+    M2["Validation fenêtre de bascule"]:::metier
     M3["Identification des flux critiques"]:::metier
-    M3["Validation plan de test PROD"]:::metier
-    M4["Validation fenêtre de bascule"]:::metier
+    M4["Validation plan de test PROD"]:::metier
+    M5["Validation fenêtre de bascule"]:::metier
 
 end
 
