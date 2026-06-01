@@ -91,7 +91,7 @@ M1 --> M3A
 D3 ==> |Analyse complémentaire| M1
 
 %% Workflow Infra
-I1 --> I2 --> I3 --> I4 --> I5 --> I6 --> I7 --> D1
+%%I1 --> I2 --> I3 --> I4 --> I5 --> I6 --> I7 --> D1
 
 %% Décisions
 D1 -->|Oui| M5
