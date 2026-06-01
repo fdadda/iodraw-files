@@ -29,7 +29,7 @@ end
 RFA(fa:fa-user RFA):::recette
 RFA ==> M1
 SELLER(fa:fa-user Forunisseur):::recette
-
+SELLER==>M1
 %% Connexions vers le subgraph
 AM --> S0
 IICS --> S0
