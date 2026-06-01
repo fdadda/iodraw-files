@@ -21,7 +21,7 @@ START --> IICS
 %% Subgraph Préparation
 subgraph PREPARATION [-- Préparation de l'opération--]
     direction TB
-    S0["Analyse d'impact métier & I"]:::metier
+    S0["Analyse d'impact métier & Infrastruc"]:::metier
     D0{"Revue d'analyse d'impact"}:::decision
 end
 
