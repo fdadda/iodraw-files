@@ -17,7 +17,7 @@ subgraph METIER [-- MOA / Equipe Métier --]
 end
 
 %% Swimlane Infra
-subgraph INFRA [Equipe Infra Réseau]
+subgraph INFRA [-- Equipe Infra Réseau --]
     I1["Cartographie flux existants DMZ\n(accès web, API GEO, DB)"]:::infra
     I2["Préparation config firewall\n(Stormshield / Fortinet)"]:::infra
     I3["Préparation DNS (TTL réduit)"]:::infra
