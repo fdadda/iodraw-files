@@ -35,7 +35,7 @@ subgraph INFRA [-- Equipe Infra Réseau --]
     I9["Rollback / correction rapide"]:::risk
     I8["Monitoring temps réel"]:::infra
 end
-D0["Revue d]
+D0["Revue d'a]
 %% Bloc Recette
 subgraph RECETTE [-- Recette Métier --]
     direction LR
