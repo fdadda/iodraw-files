@@ -84,7 +84,7 @@ end
 %% Workflow Métier
 M1 --> M2 --> M3 --> M4
 M1 --> M3A
-M4 -->|GO bascule| I1
+D -->|GO bascule| I1
 
 %% Workflow Infra
 I1 --> I2 --> I3 --> I4 --> I5 --> I6 --> I7 --> D1
