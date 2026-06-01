@@ -42,9 +42,9 @@ subgraph METIER [-- MOA / Equipe Métier --]
     direction TB
     M1["Complément de qualification du besoin métier"]:::metier
     M2["Identification des flux critiques"]:::metier
-    M2A["Mise à jour du DEX/Architecture/Fichiers Fournisseurs]
+    M2A["Mise à jour du DEX/Architecture/Fichiers Fournisseurs"]
     M3["Validation plan de test PROD"]:::metier
-    M4["Validation fenêtre de bascule av"]:::metier
+    M4["Validation fenêtre de bascule avec IICS"]:::metier
 end
 
 %% Bloc Infra
