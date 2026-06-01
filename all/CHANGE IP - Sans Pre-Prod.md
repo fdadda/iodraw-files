@@ -85,7 +85,7 @@ end
 M1 --> M2 --> M3 --> D3
 M1 --> M3A
 D3 -->|GO bascule| I1
-D3
+D3 --> |Anal
 
 %% Workflow Infra
 I1 --> I2 --> I3 --> I4 --> I5 --> I6 --> I7 --> D1
