@@ -11,12 +11,12 @@ subgraph start
 S0["Analyse d'impact métier"]:::metier
 AM(fa:fa-user DSIN/AM):::metier --> S0
 IICS(fa:fa-user DSIN/IICS):::infra --> S0
-start((Start)):::metier ==> AM
+ST((Start)):::metier ==> AM
 start ==> IICS
 AM-->S0
 IICS-->S0
 S0==>D0{"Revue d'analyse d'impact"}:::decision
-D0 --> |Non validée| s
+D0 --> |Non validée| sart
 end 
 
 %% Bloc Métier
