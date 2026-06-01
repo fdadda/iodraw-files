@@ -6,7 +6,6 @@ classDef metier fill:#9d0048,stroke:#f57f17,color:#fff,stroke-width:2px,font-siz
 classDef infra fill:#9d0048,stroke:#f57f17,color:#fff,stroke-width:2px,font-size:24px,font-weight:bold;
 classDef decision fill:#ffd54f,stroke:#f57f17,color:#000,stroke-width:2px,font-size:24px,font-weight:bold;
 
-
 %% Swimlane Métier (MOA)
 subgraph METIER [MOA / Equipe Métier]
     M1["Qualification du besoin métier\n(contraintes GEO : latence, cartographie)"]:::metier
@@ -14,8 +13,8 @@ subgraph METIER [MOA / Equipe Métier]
     M3["Validation plan de test PROD (sans pré-prod)"]:::metier
     M4["Validation fenêtre de bascule\n(risque métier accepté)"]:::metier
     M5["Test fonctionnel immédiat\n(accès maps, calculs GEO, login)"]:::metier
-    M6[Analyse anomalies métier]:::metier
-    M7[Validation finale métier]:::metier
+    M6["Analyse anomalies métier"]:::metier
+    M7["Validation finale métier"]:::metier
 end
 
 %% Swimlane Infra
@@ -28,7 +27,7 @@ subgraph INFRA [Equipe Infra Réseau]
     I6["Mise à jour DNS et proxy\n(reverse proxy / VIP)"]:::infra
     I7["Tests techniques rapides\n(connectivité, ports, latence GEO)"]:::infra
     I8["Monitoring temps réel\n(flux GEO, performance)"]:::infra
-    I9[Correction rapide ou rollback]:::infra
+    I9["Correction rapide ou rollback"]:::infra
 end
 
 %% Workflow principal
