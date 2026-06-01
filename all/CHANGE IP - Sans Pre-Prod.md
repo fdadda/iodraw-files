@@ -28,9 +28,6 @@ subgraph INFRA [Equipe Infra Réseau]
     I9[Correction rapide ou rollback]:::infra
 end
 
-
-
-
 %% Workflow
 M1 --> M2 --> M3 --> M4
 M4 -->|GO bascule| I1
