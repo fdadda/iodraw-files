@@ -53,7 +53,7 @@ end
 %% Bloc Infra
 subgraph INFRA [-- Equipe Infra Réseau --]
     direction TB
-    I1["Cartographie flux DMZ"]:::infra
+   %% I1["Cartographie flux DMZ"]:::infra
     I2["Préparation config firewall"]:::infra
     I3["Préparation DNS"]:::infra
     I4["Accès LAN prêt"]:::infra
