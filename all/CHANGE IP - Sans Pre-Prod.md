@@ -62,7 +62,7 @@ subgraph INFRA [-- Equipe Infra Réseau --]
     I9["Rollback / correction rapide"]:::risk
    
 end
- I8["Monitoring temps réel"]:::infra ==>
+ I8["Monitoring temps réel"]:::infra ==> FIN((Fin)):::metierS 
 
 %% Bloc Recette
 subgraph RECETTE [-- Recette Métier --]
