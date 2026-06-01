@@ -6,7 +6,7 @@ classDef metier fill:#9d0048,stroke:#f57f17,color:#ffffff,font-size:32px;
 classDef infra fill:#9d0048,stroke:#f57f17,color:#ffffff,font-size:32px;
 
 %% Swimlane Métier
-subgraph METIER
+subgraph METIER 
     M1["Qualification du besoin métier\n(contraintes GEO : latence, cartographie)"]:::metier
     M2["Validation flux critiques\nAPI cartographiques / DB géo"]:::metier
     M3["Validation plan de test PROD\n(sans pré-prod)"]:::metier
