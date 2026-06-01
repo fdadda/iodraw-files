@@ -4,46 +4,41 @@ flowchart LR
 %% Styles
 classDef metier fill:#9d0048,stroke:#f57f17,color:#ffffff,font-size:32px;
 classDef infra fill:#9d0048,stroke:#f57f17,color:#ffffff,font-size:32px;
-
-subgraph METIER
-    M1["Qualification besoin métier"]:::metier
-    M2["Validation flux GEO"]:::metier
-    M3["Validation test PROD"]:::metier
-    M4["Validation bascule"]:::metier
-    M5["Test fonctionnel"]:::metier
-    M6["Analyse anomalies"]:::metier
-    M7["Validation finale"]:::metier
+%% Swimlane Métier (MOA)
+subgraph METIER [MOA / Equipe Métier]
+    M1[Qualification du besoin métier\n(contraintes GEO : latence, cartographie)]:::metier
+    M2[Validation flux critiques\nAPI cartographiques / DB géo]:::metier
+    M3[Validation plan de test PROD\n(sans pré-prod)]:::metier
+    M4[Validation fenêtre de bascule\n(risque métier accepté)]:::metier
+    M5[Test fonctionnel immédiat\n(accès maps, calculs GEO, login)]:::metier
+    M6[Analyse anomalies métier]:::metier
+    M7[Validation finale métier]:::metier
 end
-
-subgraph INFRA
-    I1["🟠 Cartographie flux DMZ"]:::infra
-    I2["🟠 Config firewall"]:::infra
-    I3["🟠 Préparation DNS"]:::infra
-    I4["🟠 Accès LAN prêt"]:::infra
-    I5["🟠 Changement IP PROD"]:::infra
-    I6["🟠 Maj DNS / proxy"]:::infra
-    I7["🟠 Tests techniques"]:::infra
-    I8["🟠 Monitoring"]:::infra
-    I9["Correction / rollback"]:::infra
+%% Swimlane Infra
+subgraph INFRA [Equipe Infra Réseau]
+    I1[Cartographie flux existants DMZ\n(accès web, API GEO, DB)]:::infra
+    I2[Préparation config firewall\n(Stormshield / Fortinet)]:::infra
+    I3[Préparation DNS (TTL réduit)]:::infra
+    I4[Mise en place accès LAN prêt\n(règles + proxy)]:::infra
+    I5[Changement IP serveur en PROD\n(direct sans pré-prod)]:::infra
+    I6[Mise à jour DNS et proxy\n(reverse proxy / VIP)]:::infra
+    I7[Tests techniques rapides\n(connectivité, ports, latence GEO)]:::infra
+    I8[Monitoring temps réel\n(flux GEO, performance)]:::infra
+    I9[Correction rapide ou rollback]:::infra
 end
-
-%% Workflow
+%% Workflow principal
 M1 --> M2 --> M3 --> M4
 M4 -->|GO bascule| I1
-
 I1 --> I2 --> I3 --> I4 --> I5 --> I6 --> I7
-
 I7 -->|Tests OK| M5
 M5 --> M6
-
 M6 -->|OK| M7
 M6 -->|KO| I9
-
 I9 --> I7
 M7 --> I8
+%% Contraintes GEO
+M2 -.->|Dépendances externes cartographiques| I7
+M5 -.->|Test affichage cartes temps réel| I8
+M6 -.->|Sensibilité latence et performance| I8
 
-%% Dépendances GEO
-M2 -.->|Dépendances carto| I7
-M5 -.->|Tests maps temps réel| I8
-M6 -.->|Sensibilité perf| I8
 ```
