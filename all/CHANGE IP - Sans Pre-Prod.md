@@ -13,7 +13,7 @@ START ==> AM
 START ==> IICS
 
 subgraph Préparation 
- direction 
+ direction TB
 S0["Analyse d'impact métier"]:::metier
 AM(fa:fa-user DSIN/AM):::metier --> S0
 IICS(fa:fa-user DSIN/IICS):::infra --> S0
