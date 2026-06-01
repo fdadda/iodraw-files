@@ -1,57 +1,75 @@
 ```mermaid
-flowchart 
+flowchart LR
 
 %% Styles
 classDef metier fill:#9d0048,stroke:#f57f17,color:#ffffff,font-size:32px;
 classDef infra fill:#9d0048,stroke:#f57f17,color:#ffffff,font-size:32px;
+classDef recette fill:#4caf50,stroke:#2e7d32,color:#ffffff,font-size:32px;
+classDef decision fill:#ffd54f,stroke:#f57f17,color:#000000,font-size:32px;
+classDef risk fill:#d32f2f,stroke:#b71c1c,color:#ffffff,font-size:32px;
 
-%% Swimlane Métier
+%% Bloc Métier
 subgraph METIER [-- MOA / Equipe Métier --]
     direction TB
-    M1["Qualification du besoin métier (contraintes GEO : latence, cartographie)"]:::metier
-    M2["Validation flux critiques API cartographiques / DB géo"]:::metier
-    M3["Validation plan de test PROD (sans pré-prod)"]:::metier
-    M4["Validation fenêtre de bascule (risque métier accepté)"]:::metier
-    M5["Test fonctionnel immédiat (accès maps, calculs GEO, login)"]:::metier
-    M6["Analyse anomalies métier"]:::metier
-    M7["Validation finale métier"]:::metier
+    M1["Qualification du besoin métier"]:::metier
+    M2["Validation flux GEO critiques"]:::metier
+    M3["Validation plan de test PROD"]:::metier
+    M4["Validation fenêtre de bascule"]:::metier
 end
 
-%% Swimlane Infra
+%% Bloc Infra
 subgraph INFRA [-- Equipe Infra Réseau --]
     direction TB
-    I1["Cartographie flux existants DMZ (accès web, API GEO, DB)"]:::infra
-    I2["Préparation config firewall (Stormshield / Fortinet)"]:::infra
-    I3["Préparation DNS (TTL réduit)"]:::infra
-    I4["Mise en place accès LAN prêt (règles + proxy)"]:::infra
-    I5["Changement IP serveur en PROD (direct sans pré-prod)"]:::infra
-    I6["Mise à jour DNS et proxy (reverse proxy / VIP)"]:::infra
-    I7["Tests techniques rapides (connectivité, ports, latence GEO)"]:::infra
-    I8["Monitoring temps réel (flux GEO, performance)"]:::infra
-    I9["Correction rapide ou rollback"]:::infra
+    I1["Cartographie flux DMZ"]:::infra
+    I2["Préparation config firewall"]:::infra
+    I3["Préparation DNS"]:::infra
+    I4["Accès LAN prêt"]:::infra
+    I5["Changement IP PROD"]:::infra
+    I6["Mise à jour DNS / proxy"]:::infra
+    I7["Tests techniques rapides"]:::infra
+    D1{"Tests techniques OK ?"}:::decision
+    R1["Risque technique détecté"]:::risk
+    I9["Rollback / correction rapide"]:::risk
+    I8["Monitoring temps réel"]:::infra
 end
 
-%% Force METIER à gauche
-METIER --> INFRA
+%% Bloc Recette
+subgraph RECETTE [-- Recette Métier --]
+    direction TB
+    M5["Test fonctionnel immédiat"]:::recette
+    M6["Analyse anomalies métier"]:::recette
+    D2{"Recette OK ?"}:::decision
+    M7["Validation finale métier"]:::recette
+end
+
+%% Ordonnancement visuel
+METIER --> INFRA --> RECETTE
 linkStyle 0 opacity:0
+linkStyle 1 opacity:0
 
-%% Workflow
-I1 --> I2 --> I3 --> I4 --> I5 --> I6 --> I7
-
+%% Workflow Métier
 M1 --> M2 --> M3 --> M4
 M4 -->|GO bascule| I1
 
-I7 -->|Tests OK| M5
-M5 --> M6
+%% Workflow Infra
+I1 --> I2 --> I3 --> I4 --> I5 --> I6 --> I7 --> D1
 
-M6 -->|**OK**| M7
-M6 -->|KO| I9
+%% Décision technique
+D1 -->|Oui| M5
+D1 -->|Non| R1
+R1 --> I9
+I9 -->|Reprise tests| I7
 
-I9 --> I7
+%% Workflow Recette
+M5 --> M6 --> D2
+D2 -->|Oui| M7
+D2 -->|Non| I9
+
+%% Mise en production stabilisée
 M7 --> I8
 
 %% Dépendances GEO
 M2 -.->|Dépendances carto| I7
 M5 -.->|Tests maps temps réel| I8
-M6 -.->|Sensibilité perf| I8
+M6 -.->|Sensibilité latence / performance| I8
 ```
