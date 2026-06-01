@@ -4,6 +4,7 @@ flowchart LR
 %% Styles
 classDef metier fill:#9d0048,stroke:#f57f17,color:#ffffff,font-size:32px;
 classDef infra fill:#9d0048,stroke:#f57f17,color:#ffffff,font-size:32px;
+
 %% Swimlane Métier (MOA)
 subgraph METIER [MOA / Equipe Métier]
     M1[Qualification du besoin métier\n(contraintes GEO : latence, cartographie)]:::metier
