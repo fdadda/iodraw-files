@@ -10,7 +10,7 @@ classDef risk fill:#d32f2f,stroke:#b71c1c,color:#ffffff,font-size:32px;
 subgraph start 
 start((Start)):::metier ==> AM
     AM(fa:fa-user DSIN/AM):::metier -->M0
-    INF  I0["Analyse d'impact infra"]:::infra
+    IICS  I0["Analyse d'impact infra"]:::infra
 end 
 %% Bloc Métier
 subgraph METIER [-- MOA / Equipe Métier --]
