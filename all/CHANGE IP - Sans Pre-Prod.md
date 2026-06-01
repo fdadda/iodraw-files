@@ -71,7 +71,7 @@ subgraph RECETTE [-- Recette Métier --]
     M5["Test fonctionnel immédiat"]:::recette
     M6["Analyse anomalies métier"]:::recette
     D2{"Recette OK ?"}:::decision
-    D37["Validation finale métier"]:::recette
+    D3["Validation finale métier"]:::decision
 end
 
 %% Ordonnancement visuel
