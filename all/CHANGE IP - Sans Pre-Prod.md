@@ -12,8 +12,8 @@ classDef risk fill:#d32f2f,stroke:#b71c1c,color:#ffffff,font-size:32px;
 
 %% START complètement externe
 START((Début)):::metier
-AM["DSIN / AM"]:::metier
-IICS(fa:fa-user DSIN / IICS"):::infra
+AM(fa:fa-userDSIN / AM"]:::metier
+IICS(fa:fa-user DSIN/IICS):::infra
 
 START --> AM
 START --> IICS
