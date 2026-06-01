@@ -18,8 +18,8 @@ end
 %% Swimlane Infra
 subgraph INFRA [Equipe Infra Réseau]
     I1[🟠 Cartographie flux existants DMZ\n(accès web, API GEO, DB)]:::infra
-    I2[Préparation config firewall\n(Stormshield / Fortinet)]:::infra
-    I3[Préparation DNS (TTL réduit)]:::infra
+    I2[🟠 Préparation config firewall\n(Stormshield / Fortinet)]:::infra
+    I3[🟠 Préparation DNS (TTL réduit)]:::infra
     I4[Mise en place accès LAN prêt\n(règles + proxy)]:::infra
     I5[Changement IP serveur en PROD\n(direct sans pré-prod)]:::infra
     I6[Mise à jour DNS et proxy\n(reverse proxy / VIP)]:::infra
