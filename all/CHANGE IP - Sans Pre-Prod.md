@@ -57,7 +57,7 @@ subgraph INFRA [-- Equipe Infra Réseau --]
    %% I2["Préparation config firewall"]:::infra
    %% I3["Préparation DNS"]:::infra
    %% I4["Accès LAN prêt"]:::infra
-    I5["Changement IP PROD"]:::infra
+    I5["Activi"]:::infra
    %% I6["Mise à jour DNS / proxy"]:::infra
     I7["Tests techniques rapides"]:::recette
     D1{"Tests techniques OK ?"}:::decision
