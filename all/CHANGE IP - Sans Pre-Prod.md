@@ -85,7 +85,8 @@ end
 
 
 %% Workflow Métier
-M1 --> M2 --> M3 %%--> D3
+M1 --> M2 --> M3 
+%% --> D3
 M1 --> M3A
 D3 -->|GO bascule| I1
 D3 ==> |Analyse complémentaire| M1
