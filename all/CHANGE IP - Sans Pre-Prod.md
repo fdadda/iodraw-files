@@ -8,7 +8,9 @@ classDef recette fill:#4caf50,stroke:#2e7d32,color:#ffffff,font-size:32px;
 classDef decision fill:#ffd54f,stroke:#f57f17,color:#000000,font-size:32px;
 classDef risk fill:#d32f2f,stroke:#b71c1c,color:#ffffff,font-size:32px;
 START((Start)):::metier
-subgraph start 
+START ==> AM
+START ==> IICS
+subgraph Début 
 S0["Analyse d'impact métier"]:::metier
 AM(fa:fa-user DSIN/AM):::metier --> S0
 IICS(fa:fa-user DSIN/IICS):::infra --> S0
