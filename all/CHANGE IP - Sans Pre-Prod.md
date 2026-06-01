@@ -14,7 +14,8 @@ IICS(fa:fa-user DSIN/IICS):::infra --> S0
 start((Start)):::metier ==> AM
 start ==> IICS
 AM-->S0
-IICS-->showInfo
+IICS-->S0
+S0
   
    
     
