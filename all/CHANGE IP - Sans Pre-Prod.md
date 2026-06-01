@@ -44,7 +44,7 @@ subgraph METIER [-- MOA / Equipe Métier --]
     M2["Identification des flux critiques"]:::metier
     M2A["Mise à jour du DEX/Architecture/Fichiers Fournisseurs]
     M3["Validation plan de test PROD"]:::metier
-    M4["Validation fenêtre de bascule"]:::metier
+    M4["Validation fenêtre de bascule av"]:::metier
 end
 
 %% Bloc Infra
