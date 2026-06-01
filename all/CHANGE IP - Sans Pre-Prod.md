@@ -38,7 +38,7 @@ end
 
 %% Bloc Recette
 subgraph RECETTE [-- Recette Métier --]
-    direction TB
+    direction LR
     M5["Test fonctionnel immédiat"]:::recette
     M6["Analyse anomalies métier"]:::recette
     D2{"Recette OK ?"}:::decision
