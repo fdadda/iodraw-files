@@ -46,5 +46,4 @@ flowchart TD
     INT --> STO
     STO --> DIF
     DIF --> USA
-
 ```
