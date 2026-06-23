@@ -35,7 +35,7 @@ flowchart TD
 
     %% --- Usages ---
     subgraph USA["Usages & Valeur"]
-        E1["Agents métiers<br/>Dev. EUrbanisme / Voirie / Environnement"]
+        E1["Agents métiers<br/>Dev. Eco / Urbanisme / Voirie / Environnement"]
         E2["Décideurs<br/>COPIL / DGS / Élus"]
         E3["Citoyens<br/>Portail public / Open Data"]
         E4["Partenaires<br/>Interco / Services techniques"]
