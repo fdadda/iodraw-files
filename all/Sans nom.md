@@ -1,5 +1,5 @@
 ```mermaid
-flowchart LR
+flowchart TD
 
     %% --- Acquisition ---
     subgraph ACQ["Acquisition des données"]
