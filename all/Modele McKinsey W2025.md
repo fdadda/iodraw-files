@@ -48,5 +48,4 @@ flowchart TB
     C4 --- A4
     C5 --- A5
     C6 --- A6
-
 ```
