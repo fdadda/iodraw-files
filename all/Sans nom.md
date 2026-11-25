@@ -29,5 +29,4 @@ graph TD
 
     %% Flux de données principaux
     D -->|3. Chargement SQL| E
-
 ```
