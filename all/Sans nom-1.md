@@ -31,6 +31,4 @@ flowchart TD
     subgraph Phase5 [5. Clôture]
         I --> J[Décommissionnement de l'ancienne application<br/>une fois tous les postes à jour]:::endnode
     end
-
-  
 ```
